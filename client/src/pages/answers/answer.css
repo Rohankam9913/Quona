@@ -1,0 +1,171 @@
+.answers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.asker{
+    font-size: 14px;
+}
+
+.question_status{
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    border: none;
+}
+
+.question_status p{
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+
+.question_statement{
+    background-color: black;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: none;
+    gap: 20px;
+}
+
+.question_statement h3{
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.sort{
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+
+.answer_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+.answer{
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0px;
+}
+
+.avtar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.avtar h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.avtar p{
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+}
+
+.answer_content{
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.answer_social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.answer_social button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: seagreen;
+    color: white;
+    cursor: pointer;
+}
+
+.answer_social button:hover{
+    background-color: rgb(26, 83, 51);
+}
+
+.commentSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.add_comments{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.comment_box{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    resize: none;
+}
+
+.post{
+    background-color: seagreen;
+    color: white;
+    width: fit-content;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 840px){
+    .question_statement h3{
+        font-size: 15px;
+    }
+    .asker{
+        font-size: 14px;
+    }
+    .answer_content p{
+        font-size: 14px;
+    }
+    .sort{
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 458px){
+    .icon{
+        display: none;
+    }
+
+    .answer_social button{
+        font-size: 12px;
+        gap: 5px;
+    }
+}

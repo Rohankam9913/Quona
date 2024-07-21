@@ -1,0 +1,120 @@
+.your_questions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: inherit;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.status {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.status p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button button {
+    background-color: seagreen;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    bottom: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.question_statement_list {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.question_category{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.question_container{
+    border-bottom: 1px solid #333;
+    padding: 20px 0px;
+}
+
+.question_category p{
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+
+.question_category h3{
+    font-weight: 500;
+    color: slateblue;
+}
+
+.answer_content{
+    margin-top: 15px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    height: inherit;
+}

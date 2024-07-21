@@ -1,0 +1,5 @@
+.main_section{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}

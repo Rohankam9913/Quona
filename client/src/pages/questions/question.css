@@ -1,0 +1,110 @@
+.question{
+    background-color: black;
+    min-height: 87vh;
+    margin-top: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.label{
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+
+.input_category{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #222;
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 15px;
+    width: 50%;
+}
+
+.textarea{
+    width: 50%;
+    height: 50%;
+    outline: none;
+    background-color: #222;
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 15px;
+    border: none;
+    padding: 10px 13px;
+    resize: none;
+}
+
+.post{
+    background-color: seagreen;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.post:hover{
+    background-color: rgb(29, 92, 56);
+}
+
+.topic_names{
+    background-color: #222;
+    padding: 10px;
+    width: 50%;
+}
+
+.tag{
+    background-color: dodgerblue;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .input, .textarea{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .input, .textarea{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .input, .textarea{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .title{
+        font-size: 18px;
+    }
+
+    .label{
+        font-size: 13px;
+    }
+
+    .input, .textarea{
+        width: 100%;
+    }
+}

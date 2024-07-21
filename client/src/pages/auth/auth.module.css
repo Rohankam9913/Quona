@@ -1,0 +1,136 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: black;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.main__heading {
+    text-align: center;
+    font-size: 3em;
+    color:slateblue;
+    font-family: cursive;
+    letter-spacing: 1.2px;
+}
+
+.main__subHeading {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 0.2px;
+    background-color: #444;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form__heading {
+    font-weight: 600;
+    color: rgb(235, 229, 229);
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.label {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #222;
+    border: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+}
+
+.btn {
+    background-color: rgb(17, 72, 128);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 15px;
+    width: fit-content;
+    font-size: 19px;
+}
+
+.form__footer {
+    color: #ddd;
+}
+
+.required{
+    color: red;
+}
+
+.btn:hover{
+    background-color: rgb(51, 61, 71);
+}
+
+.auth_links{
+    color: slateblue;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1400px) {
+    .main__subHeading {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .auth {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .auth{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .auth {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .btn{
+        width: fit-content;
+    }
+
+    .main__subHeading{
+        font-size: 13px;
+    }
+}
