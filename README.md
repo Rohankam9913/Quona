@@ -1,4 +1,4 @@
-#Quona 
+Quona 
 ## An application where users can post questions about different topics and get answers about it.
 
 ### Features included
